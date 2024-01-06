@@ -7,6 +7,12 @@
     font-family: 'Urbanist', sans-serif;
 }
 
+.btn{
+    color: #fff8f3;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
 
 /* nev releted style */
 
@@ -15,6 +21,7 @@
 nav{
     display: flex;
     justify-content: space-between;
+    background-color: #f9b76c;
 }
 
 .nav-title{
@@ -24,6 +31,7 @@ nav{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    margin-left: 30px;
 
 }
 
@@ -45,10 +53,62 @@ nav a{
 }
 
 .orange{
+     background: #FD6E0A; 
+}
+
+.btn{
     border-radius: 4px;
-    background: #FD6E0A;   
     border: 0;
     font-size: 20px;
     font-weight: 700;   
     padding: 12px 29px;                                               
+}
+
+/* header */
+.header{
+    background-color: #fff8f3;
+    background-image: url(../portfolio-resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+
+/* benner */
+
+
+.banner{
+    padding: 30px 0px 30px 150px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 100%;
+    box-sizing: border-box;
+    place-items: center;
+}
+
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner-intro{
+    width: 600px;
+}
+
+.banner-description{
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 13px;
+}
+
+.buttun2{
+    margin-left: 20px;
+}
+
+.banner-image{
+    margin-bottom: -35px;
+    width: 500px;
 }
