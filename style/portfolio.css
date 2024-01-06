@@ -13,6 +13,11 @@
     font-weight: 600;
 }
 
+main{
+    max-width: 1140px;
+    margin-bottom: 20px;
+}
+
 
 /* nev releted style */
 
@@ -112,3 +117,90 @@ nav a{
     margin-bottom: -35px;
     width: 500px;
 }
+
+
+
+/* about section */
+
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+    letter-spacing: 1px;
+    margin: 130px 0px;
+}
+
+.section-title{
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.section-description{
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+
+.about-info{
+    text-align: center;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.info-title{
+    font-weight: 450;
+}
+
+.info-description{
+    font-weight: 700;
+}
+
+
+
+/* what i do section*/
+#what-i-do-description{
+    padding: 30px 150px;
+
+}
+
+
+
+/* skills */
+.skills-container{
+    display: flex;
+    margin-top: 40px;
+}
+
+.skill{
+    padding: 30px;
+    text-align: center;
+    gap:20px;
+    box-shadow: 0px 6px 50px 0px rgba(6, 5, 5, 0.06);
+}
+
+.skill-description{
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 175% */
+    text-align:center;
+}
+
+
