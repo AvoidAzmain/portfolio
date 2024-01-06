@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,700;1,800&family=Urbanist:wght@100&display=swap');
+*{
+    border: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+}
+
+
+/* nev releted style */
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title{
+    color: #181818;
+    font-family: Open sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: grey;
+    font-weight: 600;
+}
+.nav-items li {
+    
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.orange{
+    border-radius: 4px;
+    background: #FD6E0A;   
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;   
+    padding: 12px 29px;                                               
+}
